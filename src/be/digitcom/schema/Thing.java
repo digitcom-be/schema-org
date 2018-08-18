@@ -8,7 +8,7 @@ public abstract class Thing {
 	 * either as textual strings or as URL (URI) links. 
 	 * See background notes for more details.
 	 */
-	private int identifier;
+	private Long identifier;
 	
 	/**
 	 * The name of the item.
@@ -67,14 +67,14 @@ public abstract class Thing {
 	/**
 	 * @return the identifier
 	 */
-	public int getIdentifier() {
+	public Long getIdentifier() {
 		return identifier;
 	}
 
 	/**
 	 * @param identifier the identifier to set
 	 */
-	public void setIdentifier(int identifier) {
+	public void setIdentifier(Long identifier) {
 		this.identifier = identifier;
 	}
 
